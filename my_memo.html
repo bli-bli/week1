@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>나홀로 링크 메모장</title>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    <!-- Font awesome-->
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <style>
+        *{font-family: 'Do Hyeon', sans-serif;}
+        .jumbotron{
+            padding-top: 20px;
+            height: 450px;
+        }
+        .head_title{
+            width: 500px;
+            margin: 20px auto;
+            padding: 50px;
+        }
+        .title_wrap{
+            width:1030px;
+            height: 380px;
+            margin: auto;
+        }
+        .article{
+            width: 500px;
+            margin: 20px auto;
+            padding: 50px;
+        }
+        .cards{
+            width: 1000px;
+            height: 1000px;
+            margin: auto;
+        }
+        .card-title{
+            color: steelblue;
+        }
+    </style>
+    <script>
+        function hey(){
+            alert("hey");
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+    <div class="jumbotron title_wrap">
+        <hr class="my-4">
+        <div class="head_title">
+            <h1 class="display-4">나홀로 메모장 <i class="far fa-comment-dots"></i></h1>
+            <p class="lead">
+                오늘 하루 어떤 일이 있었는지<br> 곰곰히 돌아보는 시간을 가져보거라.
+            </p>
+            <p> 혼자 끄적여보는 노트... 다가오는 건망증에 대비.. </p>
+
+        <p>
+            <a onclick="hey();" class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
+        </p>
+        </div>
+    </div>
+    <div class="article">
+        <p class="article_lead"><h5>아티클 URL</h5></p>
+        <p>
+            <input type="text" size="50">
+        </p>
+         <p class="article_lead"><h5>간단 코멘트</h5></p>
+         <p>
+            <textarea cols="50" rows="10" placeholder="코멘트를 남겨보거라."></textarea>
+        </p>
+            <a class="btn btn-outline-secondary btn-lg" href="#" role="button">제출하겠소</a>
+        </p>
+    </div>
+    <div class="cards">
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장1</a></h5>
+                <p class="card-text">html, css 한번 적용해본다</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+         <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장2</a></h5>
+                <p class="card-text">아이구 재밌는 하루였다.</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장3</a></h5>
+                <p class="card-text">개발자의 언어는 무엇일까</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장4</a></h5>
+                <p class="card-text">힘내자 오늘도</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장5</a></h5>
+                <p class="card-text">우아아아아아</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="http://asq.kr/05QOFAub5aloz" alt="card image">
+            <div class="card-body">
+                <h5 class="card-title"><a href="#">메모장6</a></h5>
+                <p class="card-text">랄랄랄라</p>
+                <p class="card-text-comment">comment</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
